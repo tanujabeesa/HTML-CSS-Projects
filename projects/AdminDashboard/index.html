@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Admin Page</title>
+<link rel="stylesheet" href="css/Adminstyle.css">
+<!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyC8/6LZf9Klg6pZyM/j8F6ayh" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Galada&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--navbar starts here-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Admin Dashboard</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       
+      
+         <li class="active"><a href="#"><i class="fa-solid fa-gauge-high"></i> Dashboard <span class="sr-only">(current)</span></a></li>
+           <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+           <li><a href="#"><i class="fa-solid fa-user"></i> Profile</a></li>
+           <li><a href="#"><i class="fa-solid fa-circle-question"></i> Help</a></li>
+      
+      </ul>
+    
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa-solid fa-user-plus"></i> Add Users</a></li>
+        <li><a href="#"><i class="fa-regular fa-file-lines"></i> Add Categories</a></li>
+    
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--navbar ends here-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li class="active"><a href="#"><i class="fa-solid fa-file-import"></i> Reports</a></li>
+					<li><a href="#"><i class="fa-solid fa-chart-pie"></i> Stats</a></li>
+					<li><a href="#"><i class="fa-solid fa-square-poll-vertical"></i> graphs</a></li>
+					<li><a href="#"><i class="fa-solid fa-users"></i> users</a></li>
+				</ul>
+			
+				<ul class="nav nav-sidebar">
+					<li class="active"><a href="#"><i class="fa-solid fa-file-import"></i> Reports</a></li>
+					<li><a href="#"><i class="fa-solid fa-dollar-sign"></i> Revenue</a></li>
+					<li><a href="#"><i class="fa-solid fa-earth-americas"></i> Countries</a></li>
+					<li><a href="#"><i class="fa-solid fa-person"></i> Spamers</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-9 col-md-10 main">
+				<h1 class="page-header"><i class="fa-solid fa-gauge-high"></i> Dashboard</h1>
+				<div class="row placeholders">
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="images/graph.png" class="img-responsive" width="200" height="200" alt="">
+						<h4>Label</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, numquam!</p>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="images/graph.png" class="img-responsive" width="200" height="200" alt="">
+						<h4>Label</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, numquam!</p>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="images/graph.png" class="img-responsive" width="200" height="200" alt="">
+						<h4>Label</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, numquam!</p>
+					</div>
+					<div class="col-xs-6 col-sm-3 placeholder">
+						<img src="images/graph.png" class="img-responsive" width="200" height="200" alt="">
+							<h4>Label</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, numquam!</p>
+					</div>
+				</div>
+				<h2 class="sub-header">Deatiled Results</h2>
+				<hr>
+				<div class="table-responsive">
+					<table class="table tablestriped">
+						<thead>
+							<tr>
+								<th>ID#</th>
+								<th>Detail1#</th>
+								<th>Detail2#</th>
+								<th>Detail3#</th>
+								<th>Detail4#</th>
+							
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+							<tr>
+								<td>234</td>
+								<td>John</td>
+								<td>Pentesting</td>
+								<td>China</td>
+								<td>90$</td>
+								
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+	    <a href="#" class="pull-right"><i class="fa-solid fa-up-long"></i>Move to Top</a>
+		<p class="para">Copyrights &copy; 2024 Inc <span class="text-muted">Sai Tanuja Beesa</span></p>
+		
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
