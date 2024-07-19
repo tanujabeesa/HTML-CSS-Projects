@@ -1,0 +1,79 @@
+/*https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D*/
+html{
+	height:100%;
+}
+
+body{
+	font-family: "Playfair Display", serif;
+	background: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	
+	background-size: cover;
+	background-position: center;
+}
+.navbar-default .navbar-brand{
+	color:black;
+}
+.navbar-default{
+	background-color:red;
+}
+.center{
+	text-align: center;
+	padding-top:10%;
+	
+}
+h1,p{
+	color:white;
+	
+}
+h2 > span{
+	color: white;
+}
+#Login{
+	min-width: 250px;
+	background-color: rgba(255,255,255,0.7);
+	padding: 14px 14px 0;
+  
+
+}
+#Login .social-button{
+	margin:10px 0;	
+	margin-bottom: 10px;
+}
+.col-md-12{
+	text-align: center;
+	margin-right:5px;
+}
+.btn-fb{
+	color:#fff;
+	background-color: #3b599d;
+}
+.btn-tw{
+	color:#fff;
+	background-color: #55acee;
+}
+.btn-fb:hover{
+	color:#fff;
+	background-color: #496ebc;
+}
+.btn-tw:hover{
+	color:#fff;
+	background-color: #496ebc;
+}
+@media (max-width:768px){
+	h1{
+		background-color: #449d44;
+	}
+	h2{
+		background-color: #449d44 ;
+	}
+}
+@media (min-width:768px){
+	h1{
+		background-color: skyblue;
+		opacity:0.8;
+	}
+	h2{
+		background-color: skyblue;
+		
+	}
+}

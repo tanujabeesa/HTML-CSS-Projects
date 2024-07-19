@@ -1,0 +1,114 @@
+body{
+    padding-bottom: 20px;
+    color: #5a5a5a;
+}
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:20
+}
+.navbor-wrapper > .container{
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbor-wrapper .navbar .container{
+    width: auto;
+}
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.carousel .item{
+    height: 500px;
+    background-color: #777
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 500px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+ @media (max-width:768px){
+  h1{
+	background-color: darkgray;
+	opacity:0.5;
+	}
+.carousel-caption p{
+		 background-color: darkgray;
+		opacity:0.5;
+	 }
+	
+}
+@media (min-width:992px){
+	h1{
+		background-color: darkcyan;
+		opacity:0.5;
+		
+	}
+	.carousel-caption p{
+		 background-color: darkcyan;
+		 opacity:0.5;
+	 }
+}
+.team .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team h2{
+    color: rgba(50,50,50,0.8);
+}
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.divider{
+    margin: 40px 0;
+    
+}
+.mickey{
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+.content{
+    margin-bottom: 20px;
+}
+footer{
+    margin: 0 110px;
+    
+}
+.parallax-container {
+    height: 400px; /* Adjust height as needed */
+    background-image: url('../images/paying-kid.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; /* Adjust padding as needed */
+}
+.content-heading{
+	color:white;
+}
+.text-muted{
+	color:black;
+	font-weight: bolder;
+}
+.lead{
+	color:white;
+	font-size: 15px;
+}
