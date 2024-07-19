@@ -1,0 +1,25 @@
+/*
+#the-basics{
+	font-size: 3em;
+	
+}
+#the-basics input{
+	margin-left: 50px;
+	
+}
+.tt-suggestion .tt-selectable{
+	margin-left: 50px;
+}*/
+#the-basics {
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+}
+
+#the-basics input {
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.tt-suggestion .tt-selectable {
+    margin: 10px; /* Adjust margin as needed */
+}
